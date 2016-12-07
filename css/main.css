@@ -94,11 +94,13 @@ main > p:first-child::first-letter {
 
   font-style: normal;
   float: left;
-  padding: .4em .2em;
+  padding: 6px;
 
   border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
   margin-right: 10px;
+  font-size: 5rem;
+
 }
 
 blockquote {
