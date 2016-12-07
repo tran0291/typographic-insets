@@ -112,7 +112,10 @@ blockquote {
   float: left;
   margin-left: -15%;
   margin-right: 6px;
-  line-height: 1.5rem;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  line-height: 2rem;
+  text-align: right;
 
 }
 
@@ -123,6 +126,8 @@ figure {
   border-bottom: 3px #333 solid;
   margin-right: -15%;
   margin-left: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 figcaption {
