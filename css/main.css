@@ -94,11 +94,30 @@ main > p:first-child:: first-letter {
   padding: .2em;
   font-style normal;
   float: left;
+  padding: 6px 0px
+}
+
+blockquote {
+  color: #666;
+  font-size: 1.5rem;
+  width: 300px
 }
 
 figure {
   float: right;
   width: 300px;
-  padding-top: 5px;
-  padding-bottom: 5px
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
+
+figcaption {
+  font-style: italic;
+  padding: .4em .2em;
+}
+
+
+- *Colours:* `#333`, `#666`, `#f2f2f2`
+- *Border thickness:* `3px`
+- *Text sizes:* `5rem`, `1.5rem`, `.875rem`
+- *Paddings:* `.4em .2em`, `6px 0`, `6px`
+- *Image & pull-quote width:* `300px`
