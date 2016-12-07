@@ -110,19 +110,21 @@ blockquote {
   border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
   float: left;
+  margin-left: -15%;
+  margin-right: 6px;
+
 }
 
 figure {
   float: right;
   width: 300px;
-  padding-top: 6px;
-  padding-bottom: 6px;
-
   border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
-  margin-right: 0;
+  margin-right: -15%;
+  margin-left: 0;
 }
 
 figcaption {
   font-style: italic;
+  font-size: .875rem;
 }
