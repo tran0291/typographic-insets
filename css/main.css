@@ -94,7 +94,10 @@ main > p:first-child:: first-letter {
   padding: .2em;
   font-style normal;
   float: left;
-  padding: 6px 0px
+  padding: 6px 0px;
+
+  border-top:  3px #333 solid;
+  border-bottom: 3px #333 solid;
 }
 
 blockquote {
@@ -108,11 +111,17 @@ figure {
   width: 300px;
   padding-top: 6px;
   padding-bottom: 6px;
+
+  border-top:  3px #333 solid;
+  border-bottom: 3px #333 solid;
 }
 
 figcaption {
   font-style: italic;
   padding: .4em .2em;
+
+  border-top:  3px #333 solid;
+  border-bottom: 3px #333 solid;
 }
 
 
