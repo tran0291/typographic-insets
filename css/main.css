@@ -94,7 +94,7 @@ main > p:first-child::first-letter {
 
   font-style: normal;
   float: left;
-  padding: 6px;
+  padding: .2em;
 
   border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
