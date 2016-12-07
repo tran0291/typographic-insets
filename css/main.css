@@ -87,16 +87,16 @@ footer {
 */
 
 /* Write your CSS here */
+
 main > p:first-child::first-letter {
   background-color: #666;
   color: #f2f2f2;
 
-  padding: .2em;
   font-style: normal;
   float: left;
-  padding: 6px 0px;
+  padding: .4em .2em;
 
-  border-top:  3px #333 solid;
+  border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
   margin-right: 10px;
 }
@@ -105,7 +105,7 @@ blockquote {
   color: #666;
   font-size: 1.5rem;
   width: 300px;
-  border-top:  3px #333 solid;
+  border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
 }
 
@@ -115,7 +115,7 @@ figure {
   padding-top: 6px;
   padding-bottom: 6px;
 
-  border-top:  3px #333 solid;
+  border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
   margin-right: -15%;
 }
@@ -124,6 +124,6 @@ figcaption {
   font-style: italic;
   padding: .4em .2em;
 
-  border-top:  3px #333 solid;
+  border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
 }
